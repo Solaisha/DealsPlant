@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.solai.dealsplant.DisplayActivity">
+
+
+    <TextView
+        android:text="Nobody deals better than us!!!"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="40sp"
+        app:srcCompat="@drawable/backhand_right_hand"
+        android:id="@+id/imageView8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Lets go for a Happy Deals"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:background="@android:color/transparent"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:id="@+id/btnDP"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="400sp"
+        android:layout_height="100sp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/dealsplant_logo"
+        android:id="@+id/imageView"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/tvCoupon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shopping_bags"
+        android:id="@+id/ivmenu"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="40sp"
+        app:srcCompat="@drawable/woman_dancing"
+        android:id="@+id/imageView7"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageView8"
+        android:layout_toStartOf="@+id/imageView8"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp" />
+
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="40sp"
+        app:srcCompat="@drawable/happysmiles"
+        android:id="@+id/imageView6"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnDP"
+        android:layout_toEndOf="@+id/btnDP" />
+
+    <TextView
+        android:text="Make your First Order FREE !! Use Coupon 'MYFIRSTORDER'. Limited Time Offer!"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/tvCoupon"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="40sp"
+        app:srcCompat="@drawable/microphone"
+        android:id="@+id/imageView4"
+        android:layout_alignTop="@+id/tvCoupon"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/happysmiles"
+        android:layout_alignTop="@+id/ivmenu"
+        android:layout_alignLeft="@+id/tvCoupon"
+        android:layout_alignStart="@+id/tvCoupon"
+        android:id="@+id/ivtemp"
+        android:layout_toLeftOf="@+id/ivmenu"
+        android:layout_toStartOf="@+id/ivmenu" />
+
+
+</RelativeLayout>
